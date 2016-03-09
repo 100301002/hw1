@@ -1,0 +1,26 @@
+h1{
+  text-align:center;
+}
+
+fieldset{
+  width:40%;
+  margin-top:40px;
+  margin-left:28%;
+  margin-right:30%;
+  text-align:center;
+}
+
+#star-required{
+  color:red;
+}
+
+
+footer{
+  text-align:center;
+  margin-top:40px;
+}
+
+header,article,footer{
+  font-family:sans-serif,微軟正黑體;
+}
+

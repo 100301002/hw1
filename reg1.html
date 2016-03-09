@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel=stylesheet type="text/css" href="reg1.css">
+  <title>政大線上報名 by 100301002</title> 
+</head>
+
+<body>
+  <header>
+    <h1>政大線上報名系統</h1>
+    </header>
+  
+  <article>
+    <fieldset>
+      <legend>請填寫您的基本資料</legend>
+      <h4 id="star-required">*必填</h4>
+      
+      
+      <form name="myForm">
+      <p>姓名*：
+      <input type="text" placeholder="填寫您的姓名" maxlength="10" required></p>
+      
+      <p>學院*：
+        <select required>
+          <option value="">請選擇</option>
+          <option>文學院</option>
+          <option>理學院</option>
+          <option>社會科學學院</option>
+          <option>法學院</option>
+          <option>商學院</option>
+          <option>外國語文學院</option>
+          <option>傳播學院</option>
+          <option>國際事務學院</option>
+          <option>教育學院</option>
+          </select></p>
+          
+      
+      <p>手機號碼*：
+      <input type="text" placeholder="填寫您的電話號碼" maxlength="10" required pattern="[0-9]{10}"/></p>
+      
+      <p>Email*：
+      <input type="email" placeholder="haha@nccu.edu.tw" required></p>
+      
+      <p>生日：<input type="date"></p>
+  
+  <input type="submit" value="提交">
+    </form>
+    </fieldset>
+  </article>
+
+    <footer>
+      <img src="https://upload.wikimedia.org/wikipedia/zh/thumb/f/f2/NCCU.svg/1048px-NCCU.svg.png" height="30" alt="NCCU-logo"> NCCU Registration form
+</footer>
+      
+  
+  
+</body>
+</html>

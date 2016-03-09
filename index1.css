@@ -1,0 +1,131 @@
+header {
+  margin-left:5%;
+  background-color:white;
+}
+
+
+nav {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color:white;
+}
+nav > ul {
+    list-style-type: none;
+    margin: 1;
+    padding: 0;
+    overflow: hidden;
+    background-color: #999999;
+}
+nav > ul > li {
+    float: left;
+    display: block;
+    color: white;
+    padding: 15px;
+    font-size:12px;
+    text-align: center;
+    border-right: 1px solid;
+}
+nav > ul > li > a {
+	color: white;
+    text-decoration: none;
+}
+
+article {
+    margin-left: 5%;
+	width : 61% ;
+	float: left;;
+    background-color:white;
+}
+aside {
+	margin-left: 5% ;
+	width: 21% ;
+	float: left; ;
+	padding: 2%;
+}
+body > footer {
+	padding-top: 50px ;
+	clear: both;
+}
+
+
+/*-----nav目錄變色-----*/
+
+#menu-intro {
+	background:#999999;
+}
+
+#menu-intro:hover {
+	color:white;
+	background:#cccccc;
+}
+
+#menu-program {
+	background:#999999;
+}
+
+#menu-program:hover {
+	color:white;
+	background:#cccccc;
+}
+
+#menu-air {
+	background:#FF9900;
+}
+
+#menu-air:hover {
+	color:white;
+	background:#FFCC00;
+}
+
+#menu-exhibition {
+	background:#FF9900;
+}
+
+#menu-exhibition:hover {
+	color:white;
+	background:#FFCC00;
+}
+
+#menu-perform {
+	background:#FF9900;
+}
+
+#menu-perform:hover {
+	color:white;
+	background:#FFCC00;
+}
+
+#menu-movies {
+	background:#FF9900;
+}
+
+#menu-movies:hover {
+	color:white;
+	background:#FFCC00;
+}
+
+#menu-talks {
+	background:#FF9900;
+}
+
+#menu-talks:hover {
+	color:white;
+	background:#FFCC00;
+}
+
+
+/*-----音樂會曲目表格-----*/
+#tracks-head{background-color:rgb(153,204,0);}
+    .tracks-body{background-color:rgb(238,245,223);}
+
+h2{color:rgb(102,153,51);}
+h3{color:rgb(102,153,51);}
+    #casts_alumni3,#casts_nccu{color:rgb(204,102,51);}
+
+aside{background-color:rgb(238,245,223);}
+
+.table-memo{
+  text-align: center;
+}
+
+
